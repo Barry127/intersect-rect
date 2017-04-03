@@ -1,0 +1,36 @@
+{
+  "name": "intersect-rect",
+  "version": "0.1.0",
+  "description": "Check if two DOM elements intersect",
+  "main": "intersect-rect.js",
+  "scripts": {
+    "lint": "reset && eslint . || true",
+    "lint:watch": "ochange \"**/*.js\" -- npm run lint",
+    "test": "mocha --recursive \"**/*.spec.js\"",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barry127/intersect-rect.git"
+  },
+  "keywords": [
+    "javascript",
+    "DOM",
+    "intersect",
+    "rectangles"
+  ],
+  "author": "Barry de Kleijn <kleijn.barry@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Barry127/intersect-rect/issues"
+  },
+  "homepage": "https://github.com/Barry127/intersect-rect#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "onchange": "^3.2.1"
+  }
+}

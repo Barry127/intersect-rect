@@ -1,0 +1,17 @@
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+  eslint:
+      config:
+        config: .eslintrc.js
+      enabled: true
+  fixme:
+    enabled: true
+ratings:
+  exclude_paths:
+    - "**.spec.js"
+  paths:
+    - "**.js"
