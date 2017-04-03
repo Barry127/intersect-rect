@@ -10,8 +10,5 @@ engines:
       enabled: true
   fixme:
     enabled: true
-ratings:
-  exclude_paths:
-    - "**.spec.js"
-  paths:
-    - "**.js"
+exclude_paths:
+  - "**.spec.js"
