@@ -1,6 +1,6 @@
 {
   "name": "intersect-rect",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Check if two DOM elements intersect",
   "main": "intersect-rect.js",
   "scripts": {
