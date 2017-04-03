@@ -5,8 +5,9 @@
   "main": "intersect-rect.js",
   "scripts": {
     "lint": "reset && eslint . || true",
-    "lint:watch": "ochange \"**/*.js\" -- npm run lint",
+    "lint:watch": "onchange \"**/*.js\" -- npm run lint",
     "test": "mocha --recursive \"**/*.spec.js\"",
+    "test:coverage": "istanbul cover _mocha \"**/*.spec.js\" -- -R spec",
     "test:watch": "npm run test -- --watch"
   },
   "repository": {
