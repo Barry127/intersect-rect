@@ -1,10 +1,10 @@
 (function () {
   function intersectRect (rectA, rectB) {
     return !(
-        rectB.left > rectA.right ||
-        rectB.right < rectA.left ||
-        rectB.top > rectA.bottom ||
-        rectB.bottom < rectA.top
+        rectB.left >= rectA.right ||
+        rectB.right <= rectA.left ||
+        rectB.top >= rectA.bottom ||
+        rectB.bottom <= rectA.top
       );
   }
 
